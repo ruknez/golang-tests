@@ -1,4 +1,4 @@
-module github.com/ruknez/golang-tests
+module github.com/golang-tests
 
 go 1.17
 
