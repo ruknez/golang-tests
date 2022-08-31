@@ -1,0 +1,30 @@
+# Project cache and vendor
+var/cache/DIContainer
+var/cache/Clients
+!var/cache/Clients/.gitkeep
+var/cache/router/*.php
+!var/cache/router/.gitkeep
+var/cache/annotations
+!var/cache/annotations/.gitkeep
+vendor
+
+# Dev configs
+etc/config.dev.php
+
+# CI artifacts
+clover.xml
+tccoverage
+.helm_tmp
+.phpunit.result.cache
+.env.paas
+
+# IDE system files
+.idea
+
+# Mac OS files
+.DS_Store
+
+etc/di/params/k8s.yml
+share/swagger/*.json
+.Dockerfile.migrations
+.env.override
