@@ -13,8 +13,16 @@ func TestMergeMass(t *testing.T) {
 		b []int
 	}{
 		{
-			a: []int{1, 2, 4, 7},
+			a: []int{0, 2, 4, 7},
 			b: []int{3, 4, 7, 15, 32},
+		},
+		{
+			a: nil,
+			b: []int{3, 4, 7, 15, 32},
+		},
+		{
+			a: []int{0, 2, 4, 7},
+			b: []int{0, 2, 4, 7},
 		},
 	}
 
