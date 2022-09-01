@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-var notFoundElement = errors.New("Not found element")
+var notFoundElement = errors.New("not found element")
 
 func main() {
 	res, err := binarySearch([]int{-100, -1, 1, 2, 3, 4, 5}, -10)
